@@ -53,7 +53,7 @@ These are some commands that you can use if you want to rollback an changes or e
 4. `git reset --hard HEAD~1` = This command removes all your commits and it deletes it permanently. This command shouldn't be used a lot but if you decide to use it, use it moderately. 
 5. `git reset HEAD ~1` = This command undos commits and adds. 
 
-## Extra Tips and Things you can do
+## Extra Tips
 Some important things to note about the command git init is to make sure to never use it if you are in the "~/workspace" folder. If you do git init by accident in the workspace folder, the command to undo the initialization is `rm -rf .git` . To prevent this mistake, developing a habit of changing your directory to the one you just cloned or forked.
 
 
